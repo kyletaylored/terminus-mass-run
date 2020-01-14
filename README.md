@@ -13,3 +13,13 @@ Terminus provides several ways of getting a list of sites, the simplest being `t
 ```
 $ terminus site:list --format=list | terminus remote:mass:drush -- cr
 ```
+
+## Installation
+To install this plugin place it in `~/.terminus/plugins/`.
+
+On macOS/Linux:
+
+```
+mkdir -p ~/.terminus/plugins
+git clone https://github.com/jnettik/terminus-mass-run ~/.terminus/plugins/
+```
