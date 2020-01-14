@@ -21,5 +21,5 @@ On macOS/Linux:
 
 ```
 mkdir -p ~/.terminus/plugins
-git clone https://github.com/jnettik/terminus-mass-run ~/.terminus/plugins/
+git clone https://github.com/jnettik/terminus-mass-run ~/.terminus/plugins/terminus-mass-run
 ```
