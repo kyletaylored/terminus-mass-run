@@ -3,6 +3,7 @@
 Terminus Mass Run takes a piped list of Pantheon sites runs a Terminus command on them in bulk. This takes the idea used in [Terminus Mass Update](https://github.com/pantheon-systems/terminus-mass-update) and expands on it for various terminus commands. Currently supported commands are:
 
 * `terminus remote:drush`
+* `terminus remote:wp`
 * `terminus backup:create`
 * `terminus env:deploy`
 * `terminus connection:set`
@@ -21,5 +22,5 @@ On macOS/Linux:
 
 ```
 mkdir -p ~/.terminus/plugins
-git clone https://github.com/jnettik/terminus-mass-run ~/.terminus/plugins/terminus-mass-run
+git clone https://github.com/kyletaylored/terminus-mass-run ~/.terminus/plugins/terminus-mass-run
 ```
