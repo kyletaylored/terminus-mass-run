@@ -11,7 +11,7 @@ class TerminusMassRunUpstreamCacheClearCommand extends ClearCacheCommand impleme
   use TerminusMassRunTrait;
 
   /**
-   * Get an ouput of site data.
+   * Clear upstream cache for all sites.
    *
    * @authorize
    *
@@ -28,7 +28,7 @@ class TerminusMassRunUpstreamCacheClearCommand extends ClearCacheCommand impleme
    */
   public function checkUpdates($options = ['upstream' => '']) {
     $output = '';
-    $sites = $this->filterFrameworks($this->getAllSites($options['upstream']), ['drupal', 'drupal8']);
+    $sites = $this->filterFrameworks($this->getAllSites($options['upstream']), ['drupal', 'drupal8', 'wordpress', 'wordpress_network']);
 
     foreach ($sites as $site) {
       $output .= $this->clearCache($site->getName());

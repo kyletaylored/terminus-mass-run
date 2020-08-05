@@ -1,5 +1,5 @@
 {
-  "name": "jnettik/terminus-mass-run",
+  "name": "kyletaylored/terminus-mass-run",
   "description": "Run Terminus commands on multiple Pantheon sites.",
   "type": "terminus-plugin",
   "autoload": {
